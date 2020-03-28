@@ -1,0 +1,53 @@
+.sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+.tb-spravka > tbody > tr > td,
+.tb-spravka > tbody > tr > th,
+.tb-spravka > tfoot > tr > td,
+.tb-spravka > tfoot > tr > th,
+.tb-spravka > thead > tr > td,
+.tb-spravka > thead > tr > th {
+
+	vertical-align: middle;
+}
+
+/*text-decoration-style: dashed; text-decoration-line: underline;*/
+a.help:link {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+a.help:visited {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+a.help:hover {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+a.help:active {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.accordion .card {
+  overflow: hidden;
+}
+
+.accordion .card-header {
+  margin-bottom: -1px;
+}
+.displaynone {display: none;}
